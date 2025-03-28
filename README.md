@@ -92,11 +92,10 @@ On accède aux réponses des méthodes manipulant les données en retrant la rou
 
 Exemple : 
 
-class MyTableController extends MyTable
-{
+```class MyTableController extends MyTable
     #[Route('/myTableShowData', name: 'create_data_my_table')]
+```
 
-}    
 
 l'url sera : http://localhost:8000/myTableShowData
 (Pour y accéder, le port sera toujours 8000 et pas celui renseigné dans l'url de la base de donnée dans le .env)
@@ -109,13 +108,13 @@ l'url sera : http://localhost:8000/myTableShowData
 
 Sources :
 
-Utilisation de doctrine, mise en place de la BDD, des tables, utilisation des controllers et des entités :
+- Utilisation de doctrine, mise en place de la BDD, des tables, utilisation des controllers et des entités :
 https://symfony.com/doc/current/doctrine.html
 
 
-Créer des routes, les faire matcher des méthodes HTPP, etc :
+- Créer des routes, les faire matcher des méthodes HTPP, etc :
 https://symfony.com/doc/current/routing.html
 
 
-Définition d'un ORM :
+- Définition d'un ORM :
 https://www.base-de-donnees.com/orm/
