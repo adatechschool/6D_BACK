@@ -64,6 +64,7 @@ New property name (press <return> to stop adding fields):
 
 Un nouveau fichier src/Entity/MyTable.php est alors créé. A la création de la classe, ses attributs sont créés, les getters et les setters aussi. Ses attributs peuvent être modifiés dans MyTable.php ou en relançant la commande
 > php bin/console make:entity
+
 qui permet d'update la table en renseignant un nom déja existant, par exemple :
 
 Class name of the entity to create or update:
@@ -90,11 +91,10 @@ Il faut ensuite générer un controller, qui créera un nouveau fichier dans leq
 On accède aux réponses des méthodes manipulant les données en retrant la route définie dans le fichier 
 
 Exemple : 
+
 class MyTableController extends MyTable
 {
     #[Route('/myTableShowData', name: 'create_data_my_table')]
-
-    // du code
 
 }    
 
