@@ -12,6 +12,7 @@ INSTALLATION
 
 - Lancer le serveur
 > php -S localhost:8000 -t public
+> 
 Une fois le serveur lancé, il faut un nouveau terminal pour entrer des lignes de commandes
 
 
