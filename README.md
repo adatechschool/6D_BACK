@@ -1,8 +1,10 @@
-DOCUMENTAION
+# DOCUMENTAION
 
-Source à partir de la ligne 106
+Source à partir de la ligne 111
 
-INSTALLATION
+
+
+## INSTALLATION
 
 - Vérifier que composer est bien installé :
 > composer --version
@@ -16,7 +18,7 @@ INSTALLATION
 Une fois le serveur lancé, il faut un nouveau terminal pour entrer des lignes de commandes
 
 
-CONFIGURER LA BASE DE DONNÉE
+## CONFIGURER LA BASE DE DONNÉE
 
 Dans le fichier .env, rentrer l'url de la database que l'on va créer en suivant ce modèle. La base de donnée ne doit pas être créee sur PHPMyAdmin, on lui écrit seulement l'url, c'est doctrine qui va la faire. Entre {} ce qui est à modifier (ces informations peuvent être trouvées via PHPMyAdmin) :
 
@@ -106,7 +108,7 @@ l'url sera : http://localhost:8000/myTableShowData
 (Penser à vérifier la bonne exécution des méthodes en utilisant Bruno ou Postman)
 
 
-Sources :
+## Sources :
 
 - Utilisation de doctrine, mise en place de la BDD, des tables, utilisation des controllers et des entités :
 https://symfony.com/doc/current/doctrine.html
