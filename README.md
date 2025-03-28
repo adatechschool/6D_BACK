@@ -77,8 +77,11 @@ Run le SQL présent dans le nouveau fichier migration pour l'ajouter à la base 
 
 !! Important !! : à chaque mofification de la table ou de ses attributs, il est nécessaire de run à nouveau :
 > php bin/console make:migration
+
 puis :
+
 > php bin/console doctrine:migrations:migrate
+
 pour updater la BDD aveec les changements de la table. 
 
 Il faut ensuite générer un controller, qui créera un nouveau fichier dans lequel on écrira les fonctions répondant aux méthodes HTPP :
